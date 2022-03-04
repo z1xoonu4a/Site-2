@@ -1,4 +1,36 @@
+* {
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
-	color: white;
-	background: black;
+	background: rgb(70, 70, 70);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #001cbd;
+}
+
+.social {
+	border-radius: 20px;
+	background-color: #00ffea;
+}
+
+.movies {
+	border-radius: 20px;
+	background-color: #ffe600;
+}
+
+.device {
+	border-radius: 20px;
+	background-color: #ff5100;
+}
+
+.avatar {
+	border-radius: 20px;
 }

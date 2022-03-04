@@ -23,7 +23,8 @@ a:link {
 
 .movies {
 	border-radius: 20px;
-	background-color: #ffe600;
+	background-color: tan;
+	/* background-color: #ffe600; */
 }
 
 .device {

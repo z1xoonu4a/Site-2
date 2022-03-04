@@ -1,10 +1,18 @@
-const btnSocial = document.querySelector('#clickSocial')
+const color = {
+	yello: 'yello',
+	red: 'red',
+	black: 'black',
+}
 
-btnSocial.addEventListener('click', () => {
-    console.log('Hello Worold!')
-    
-})
+const number = {
+	one: 1,
+	two: 2,
+	three: 3,
+	four: 4,
+	five: 5,
+}
 
-console.log(1)
-
-
+const allItem = {
+	...color,
+	...number,
+}

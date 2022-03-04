@@ -17,19 +17,22 @@ a:link {
 }
 
 .social {
-	padding: 2px;
+	margin: 10px;
+	padding: 1px;
 	border-radius: 20px;
 	background-color: #00ffea;
 }
 
 .movies {
-	padding: 2px;
+	margin: 10px;
+	padding: 1px;
 	border-radius: 20px;
 	background-color: #ffe600;
 }
 
 .device {
-	padding: 2px;
+	margin: 10px;
+	padding: 1px;
 	border-radius: 20px;
 	background-color: #ff5100;
 }

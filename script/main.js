@@ -1,18 +1,9 @@
-const color = {
-	yello: 'yello',
-	red: 'red',
-	black: 'black',
+class Person {
+	constructor(name, age = 0) {
+		;(this.name = name), (this.age = age)
+	}
 }
 
-const number = {
-	one: 1,
-	two: 2,
-	three: 3,
-	four: 4,
-	five: 5,
-}
+const personInformation = new Person('Dima', 17)
 
-const allItem = {
-	...color,
-	...number,
-}
+console.log(personInformation.name)

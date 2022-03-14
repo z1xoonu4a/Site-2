@@ -1,42 +1,60 @@
+/* ALL */
 * {
 	font-size: 25px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Hack';
 }
 
+/* body */
 body {
-	background: rgb(70, 70, 70);
+	padding: 10px;
+	background: #363636;
 }
 
-a {
-	text-decoration: none;
+/* Link */
+.link {
+	float: right;
+	margin: 7px 7px 7px 0;
 }
 
 a:link {
-	color: #001cbd;
+	color: #0059ff;
+	border-bottom: 1px dashed;
 }
 
-.social {
-	margin: 10px;
-	padding: 1px;
-	border-radius: 20px;
-	background-color: #00ffea;
+a:visited {
+	color: #ef7d55;
 }
 
-.movies {
-	margin: 10px;
-	padding: 1px;
-	border-radius: 20px;
-	background-color: #ffe600;
+a:hover {
+	color: #154088;
+	border-bottom: 0.07em solid;
 }
 
-.device {
-	margin: 10px;
-	padding: 1px;
-	border-radius: 20px;
-	background-color: #ff5100;
+a:active {
+	color: #497ddd;
+	border-bottom: 1px dashed;
 }
 
-.avatar {
-	border-radius: 20px;
+/* Aavatar */
+.avatar-upload__holder {
+	border-radius: 50%;
+}
+
+/* Name */
+.channel__left {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.channel__description {
+	color: #ffffff;
+	margin-left: 30px;
+	min-width: 0;
+}
+
+.hbold {
+	letter-spacing: -0.04em;
+	font-family: ofont.ru_Helvetica Neue;
+	font-weight: 800;
 }

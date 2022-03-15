@@ -70,6 +70,7 @@ a:active {
 }
 
 #rec_bloc ul li a {
+	font-size: 20px;
 	padding: 10px;
 	display: flex;
 	align-items: center;
@@ -77,5 +78,5 @@ a:active {
 
 #rec_bloc ul li img {
 	padding-right: 10px;
-	height: 35px;
+	height: 30px;
 }

@@ -45,19 +45,19 @@ body {
 
 /* link */
 a:link {
-	color: #ef7d55;
+	color: #ffffff;
 }
 
 a:visited {
-	color: #ef7d55;
+	color: #ffffff;
 }
 
 a:hover {
-	color: #154088;
+	color: #ffffff;
 }
 
 a:active {
-	color: #497ddd;
+	color: #ffffff;
 }
 
 #rec_bloc ul {
@@ -70,7 +70,7 @@ a:active {
 }
 
 #rec_bloc ul li a {
-	font-size: 20px;
+	font-size: 18px;
 	padding: 10px;
 	display: flex;
 	align-items: center;
@@ -78,5 +78,5 @@ a:active {
 
 #rec_bloc ul li img {
 	padding-right: 10px;
-	height: 30px;
+	height: 18px;
 }

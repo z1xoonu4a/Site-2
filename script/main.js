@@ -1,9 +1,13 @@
-class Person {
-	constructor(name, age = 0) {
+class PersonInformation {
+	constructor(name, age, budget) {
 		;(this.name = name), (this.age = age)
+	}
+
+	result() {
+		console.log(`Hello ${this.name} you ${this.age} age!`)
 	}
 }
 
-const personInformation = new Person('Dima', 17)
+const person = new PersonInformation('Dima', 17)
 
-console.log(personInformation.name)
+person.result()

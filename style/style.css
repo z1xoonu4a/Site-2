@@ -16,32 +16,6 @@ body {
 	align-content: center;
 	justify-content: center;
 	background-color: #2b2b2d;
-	padding-bottom: 6px;
-}
-
-/* Link */
-.link {
-	float: right;
-	margin: 7px 7px 7px 0;
-}
-
-a:link {
-	color: #ef7d55;
-	border-bottom: 1px dashed;
-}
-
-a:visited {
-	color: #ef7d55;
-}
-
-a:hover {
-	color: #154088;
-	border-bottom: 0.07em solid;
-}
-
-a:active {
-	color: #497ddd;
-	border-bottom: 1px dashed;
 }
 
 /* Aavatar */
@@ -67,4 +41,41 @@ a:active {
 	letter-spacing: -0.04em;
 	font-family: ofont.ru_Helvetica Neue;
 	font-weight: 800;
+}
+
+/* link */
+a:link {
+	color: #ef7d55;
+}
+
+a:visited {
+	color: #ef7d55;
+}
+
+a:hover {
+	color: #154088;
+}
+
+a:active {
+	color: #497ddd;
+}
+
+#rec_bloc ul {
+	margin: 0;
+	list-style: none;
+}
+
+#rec_bloc ul li {
+	float: right;
+}
+
+#rec_bloc ul li a {
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+#rec_bloc ul li img {
+	padding-right: 10px;
+	height: 35px;
 }

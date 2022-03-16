@@ -1,13 +1,29 @@
 class PersonInformation {
-	constructor(name, age, budget) {
-		;(this.name = name), (this.age = age)
-	}
+  constructor(name, age) {
+    (this.name = name), (this.age = age);
+  }
 
-	result() {
-		console.log(`Hello ${this.name} you ${this.age} age!`)
-	}
+  returnResult() {
+    console.log(`Hello ${this.name} you ${this.age} age!`);
+  }
 }
 
-const person = new PersonInformation('Dima', 17)
+const person = new PersonInformation("Dima", 17);
 
-person.result()
+const listName = ["Dima", "Kostya", "Polina"];
+
+if (listName.includes("Dima")) {
+  console.log("data");
+}
+
+let d = ''
+let v
+
+if(!d) {
+  v = d
+}
+else {
+  v = false
+}
+
+console.log(v)

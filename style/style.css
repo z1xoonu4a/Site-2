@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=League+Spartan&display=swap');
+
 /* ALL */
 * {
 	font-size: 25px;
-	font-family: 'Hack';
+	font-family: 'League Spartan', sans-serif;
 }
 
 /* body */
